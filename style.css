@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     font-family: 'Muli', sans-serif;
 }
@@ -36,4 +37,9 @@ h1{
     background-size: 500px 300px;
     background-repeat: no-repeat;
     background-position-x:right;
+=======
+header{
+    background-color: pink;
+    color: lightcoral;
+>>>>>>> 183dd6aadc4d481c2fa44cfc670adcf166db60f4
 }
