@@ -1,5 +1,11 @@
 body{
     font-family: 'Muli', sans-serif;
+    margin:0;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
 }
 
 h1,
@@ -24,13 +30,17 @@ h1{
     color: white;
 }
 
-.header a{
-    color: white;
-    text-decoration: none;
+.portfolio{
+    background-color: #fafafa
 }
+
 
 .project{
     border: 1px solid gray;
+    border-radius: 7px;
+    margin: 20px 10px;
+    padding: 5px 15px;
+    background-color: white;
 }
 .project-details{
     width: 550px;
