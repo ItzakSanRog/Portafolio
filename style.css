@@ -18,6 +18,13 @@ h1{
     margin:0;
 }
 
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
 figure{
     margin:0;
 }
@@ -63,23 +70,85 @@ figure{
 
 
 .portfolio{
-    background-color: #fafafa
+    background-color: #fafafa;
+    padding: 20px;
 }
 
 
 .project{
     border: 1px solid gray;
     border-radius: 7px;
-    margin: 20px 10px;
-    padding: 5px 15px;
+    margin: 10px 0px;
+    padding: 10px;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
 .project-details{
     width: 550px;
 }
 
-.project-imageContainer{
-    width: 500px;
+.project-title{
+    font-size: 30px;
+    margin: 10px 0px;
+    
+}
+.project-lenguaje{
+    font-size: smaller;
+    margin: 10px 0px;
+}
+.project-date{
+    margin: 10px 0px;
+}
+.project-description{
+    font-size: 22px;
+}
+
+.experience{
+    margin: 10px;
+    padding: 15px;
+}
+
+.event-list{
+    display: flex;
+    /* justify-content: space-around;
+    align-content: center; */
+    flex-wrap: wrap;
+}
+
+.event{
+    background-color: #f4fbff;
+    margin: 10px 10px;
+    width: 480px;
+    border-radius: 9px;
+    border: solid 1px red;
+    overflow: hidden;
+}
+
+.event-details{
+    background-color:white;
+    border: 1px solid blue;
+    border-radius: 9px;
+    position: relative;
+    margin: -40px 40px 20px 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-details a{
+    text-decoration: none;
+    color: #026fff;
+    border: 1px solid #026fff;
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.event img{
+    width:480px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .footer{
