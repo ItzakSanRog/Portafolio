@@ -3,6 +3,15 @@ body{
     margin:0;
 }
 
+.container{
+    display:inherit;
+    justify-content: inherit;
+    align-content: inherit;
+    height: inherit;
+    width:1100px;
+    margin: 0 auto;
+}
+
 h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat', sans-serif;
 }
@@ -15,7 +24,7 @@ h1{
     letter-spacing: 0.35px;
     text-transform: capitalize;
     /* text-decoration: */
-    margin:0;
+    margin:20px;
 }
 
 h2{
@@ -52,22 +61,26 @@ figure{
     text-decoration: none;
     display:inline-block;
     padding: 1em 2em;
-    margin: -2em 0em;
+    margin: .5em 0em;
     position: relative;
     /* z-index: 1;  */
 }
 
 .hero{
-    height: 300px;
+    
     background-color: #1b2127;
-    background-image: url("./img/hero.jpg");
+    /* background-image: url("./img/hero.jpg");
     background-size: 500px 300px;
     background-repeat: no-repeat;
-    background-position-x:right;
+    background-position-x:right; */
     display: flex;
-    align-items:center;
+    align-content:center;
 }
 
+.hero-image{
+    vertical-align: middle;
+    height: 300px;
+}
 
 .portfolio{
     background-color: #fafafa;
@@ -112,8 +125,8 @@ figure{
 
 .event-list{
     display: flex;
-    /* justify-content: space-around;
-    align-content: center; */
+    justify-content: space-around;
+    align-content: center;
     flex-wrap: wrap;
 }
 
@@ -122,13 +135,11 @@ figure{
     margin: 10px 10px;
     width: 480px;
     border-radius: 9px;
-    border: solid 1px red;
     overflow: hidden;
 }
 
 .event-details{
     background-color:white;
-    border: 1px solid blue;
     border-radius: 9px;
     position: relative;
     margin: -40px 40px 20px 40px;
@@ -149,6 +160,53 @@ figure{
     width:480px;
     height: 200px;
     object-fit: cover;
+}
+
+.contact h2{
+    color:white;
+}
+
+.contact{
+    color: white;
+    background-color: #026fff;
+    height: 150px;
+}
+
+#email{
+    border: 1px solid white;
+    padding: 10px 30px;
+    background-image: url(./img/envelope.svg);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    border-radius: 5px;
+}
+
+#enviar{
+    border: 1px solid white;
+    color:white;
+    display:block;
+    margin-top: 10px;
+    background: transparent;
+    padding: 5px 20px;
+    border-radius: 7px;
+}
+
+.contact-details{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.social{
+    display: inline-block;
+    justify-content: space-around;
+}
+.social-img img{
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px;
 }
 
 .footer{
